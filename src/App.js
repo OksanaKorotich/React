@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -21,5 +21,23 @@ function App() {
     </div>
   );
 }
+
+export default App;*/
+
+import Hero from './Components/Hero/Hero';
+import SearchForm from './Components/SearchForm/SearchForm';
+import List from './Components/List/List';
+
+
+const App = () => {
+  return (
+    <div>
+      <Hero />
+      <SearchForm />
+      <List />
+    </div>
+  );
+};
+
 
 export default App;
